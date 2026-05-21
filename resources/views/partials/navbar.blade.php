@@ -47,7 +47,7 @@
             <div class="modal-body">
                 Apakah Anda yakin ingin keluar dari sistem Simahaswa?
             </div>
-            <div class="modal-footer">
+            {{-- <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
@@ -55,7 +55,7 @@
                         <i class="fas fa-sign-out-alt mr-1"></i> Logout
                     </button>
                 </form>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
